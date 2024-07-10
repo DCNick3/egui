@@ -339,6 +339,7 @@ impl Renderer {
                     compilation_options: wgpu::PipelineCompilationOptions::default()
                 }),
                 multiview: None,
+                cache: None,
             }
         )
         };
